@@ -15,7 +15,7 @@ const metrics = [
     description: "Responsive support hours"
   },
   {
-    value: "Clarksville",
+    value: "Clarksville, Nashville & Surrounding Areas",
     description: "Service Area Coverage"
   }
 ];
