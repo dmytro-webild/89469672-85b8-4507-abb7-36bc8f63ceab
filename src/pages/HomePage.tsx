@@ -4,7 +4,6 @@ import FaqTabbedAccordion from '@/components/sections/faq/FaqTabbedAccordion';
 import FeaturesTaggedCards from '@/components/sections/features/FeaturesTaggedCards';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
-import TestimonialMarqueeCards from '@/components/sections/testimonial/TestimonialMarqueeCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
@@ -110,48 +109,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-    <SectionErrorBoundary name="testimonials">
-          <TestimonialMarqueeCards
-      tag="Local Trust"
-      title="What Our Partners Say"
-      description="Local business owners in Clarksville and Nashville trust us for their web needs."
-      testimonials={[
-        {
-          name: "John Miller",
-          role: "Owner, Miller Landscaping",
-          quote: "RedlineWebCo made our business look professional. The monthly updates are a game changer.",
-          imageSrc: "https://images.pexels.com/photos/16322150/pexels-photo-16322150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        },
-        {
-          name: "Sarah Jenkins",
-          role: "Bistro Owner",
-          quote: "Finally, someone who understands local business needs. Fast, reliable, and friendly.",
-          imageSrc: "https://images.pexels.com/photos/12437056/pexels-photo-12437056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        },
-        {
-          name: "David Clark",
-          role: "Contractor",
-          quote: "Their maintenance plan is worth every penny. I haven't had to touch my site in months.",
-          imageSrc: "https://images.pexels.com/photos/38758071/pexels-photo-38758071.png?auto=compress&cs=tinysrgb&h=650&w=940",
-        },
-        {
-          name: "Elena Rodriguez",
-          role: "Creative Studio",
-          quote: "Beautiful design, great support. Exactly what I needed for my new studio.",
-          imageSrc: "https://images.pexels.com/photos/13891792/pexels-photo-13891792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        },
-        {
-          name: "Mark Stevens",
-          role: "Small Retail Shop",
-          quote: "Professional and local. Great to have a team I can call directly.",
-          imageSrc: "https://images.pexels.com/photos/6888761/pexels-photo-6888761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        },
-      ]}
-      textAnimation="slide-up"
-    />
-    </SectionErrorBoundary>
-  </div>
 
   <div id="faq" data-section="faq">
     <SectionErrorBoundary name="faq">
