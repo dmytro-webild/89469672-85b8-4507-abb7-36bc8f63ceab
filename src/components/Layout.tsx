@@ -30,10 +30,6 @@ export default function Layout() {
   {
     "name": "Maintenance",
     "href": "#maintenance"
-  },
-  {
-    "name": "Testimonials",
-    "href": "#testimonials"
   }
 ];
 
