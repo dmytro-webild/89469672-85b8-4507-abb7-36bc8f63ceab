@@ -60,8 +60,8 @@ const MaintenanceInline = () => (
       <ScrollReveal variant="fade">
         <GridOrCarousel>
           {metrics.map((metric) => (
-            <div key={metric.value} className="flex flex-col justify-between gap-6 p-6 md:p-10 min-h-60 md:min-h-70 2xl:min-h-80 h-full card rounded">
-              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold leading-none tracking-tight">{metric.value}</span>
+            <div key={metric.value} className="flex flex-col justify-between gap-6 p-6 md:p-10 min-h-60 md:min-h-70 2xl:min-h-80 h-full card rounded overflow-hidden">
+              <span className={`font-semibold tracking-tight ${metric.value.length > 12 ? "text-2xl sm:text-3xl md:text-3xl lg:text-4xl leading-snug" : "text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none"}`}>{metric.value}</span>
               <p className="text-base leading-snug text-balance">{metric.description}</p>
             </div>
           ))}
