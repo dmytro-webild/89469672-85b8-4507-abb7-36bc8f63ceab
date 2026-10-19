@@ -14,7 +14,7 @@ export default function ContactSection(): React.JSX.Element {
           text="Ready to transform your business presence? Call us today or request a quote."
           primaryButton={{
             text: "Call Now: (615) 852-8670",
-            href: "tel:6158528670",
+            href: "tel:+16158528670",
           }}
           secondaryButton={{
             text: "Email Us",

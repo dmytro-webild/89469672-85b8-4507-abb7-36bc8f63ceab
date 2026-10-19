@@ -41,7 +41,7 @@ export default function Layout() {
       logo="RedlineWebCo"
       ctaButton={{
         text: "(615) 852-8670",
-        href: "tel:6158528670",
+        href: "tel:+16158528670",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
@@ -77,7 +77,7 @@ export default function Layout() {
             },
             {
               label: "Phone",
-              href: "tel:6158528670",
+              href: "tel:+16158528670",
             },
             {
               label: "Hours: 9am-5pm",
