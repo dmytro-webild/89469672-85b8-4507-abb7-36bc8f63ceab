@@ -15,7 +15,7 @@ export default function HeroSection(): React.JSX.Element {
           description="Professional web creation and maintenance for businesses in Clarksville and Nashville. Focus on your business, we'll handle the digital presence."
           primaryButton={{
             text: "Call Now: (615) 852-8670",
-            href: "tel:6158528670",
+            href: "tel:+16158528670",
           }}
           secondaryButton={{
             text: "View Our Services",
