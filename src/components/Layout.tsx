@@ -72,11 +72,11 @@ export default function Layout() {
           title: "Support",
           items: [
             {
-              label: "Email",
+              label: "redlinewebco@gmail.com",
               href: "mailto:redlinewebco@gmail.com",
             },
             {
-              label: "Phone",
+              label: "(615) 852-8670",
               href: "tel:+16158528670",
             },
             {
